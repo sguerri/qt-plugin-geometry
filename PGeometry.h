@@ -5,7 +5,8 @@
 
 namespace PGeometry
 {
-    extern void init(QMainWindow* window, const QString& name = "");
+    extern void load(QMainWindow* window, const QString& name = "");
+    extern void save(QMainWindow* window, const QString& name = "");
 };
 
 
